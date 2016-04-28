@@ -220,8 +220,10 @@ margin-right:10px;
 }
 
 #maintitle {
+background-image: url('../images/Vertice-aplicaçãopreto.png');
+background-position: center;
 width: 100%;
-height: 72px;
+height: 83px;
 background-repeat: no-repeat;
 margin-bottom:20px;
 }
@@ -230,15 +232,16 @@ margin-bottom:20px;
 display: none;
 }
 
-#mainpanel {
+#mainpanel {	
 margin-top: 50px;
 margin-left: 25px;
 background:#fff;
 background-color:rgba(255,255,255,0.8);
-border:1px solid #ccc;
 z-index:20;
 position:fixed;
 top:0;
+border-radius: 25px;
+background: #319A8C;
 }
 
 #mainpanel .b1 {
@@ -249,6 +252,8 @@ padding: 0px 0 0 0;
 width: 240px;
 padding: 18px 18px 18px 18px;
 margin: 0;
+border-radius: 20px;
+background: #319A8C;
 
 }
 
@@ -477,18 +482,19 @@ display: none;
 	-ms-user-select: none;
 	user-select: none;
 	text-align:left;
+	border-radius: 20px;
 }
 
 #zoom .z {
 	background:#fff;
-	background-color:rgba(255,255,255,0.7);
+	background-color: #319A8C;
 	width: 60px;
 	height: 60px;
 	cursor: pointer;
-	border:1px solid #ccc;
 	float:left;
 	margin-right:4px;
 	background-repeat:no-repeat;
+	border-radius: 20px;
 }
 
 #zoom .z[rel=center] {
