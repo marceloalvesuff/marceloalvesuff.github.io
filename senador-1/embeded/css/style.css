@@ -242,7 +242,6 @@ position:fixed;
 top:0;
 border-radius: 25px;
 background: #319A8C;
-color: white;
 }
 
 #mainpanel .b1 {
@@ -260,16 +259,14 @@ background: #319A8C;
 
 #title {
 font-weight: bold;
-color: white;
 }
 
 #titletext {
 padding: 6px 0 10px 0;
-color: white;
 }
 
 #info {
-	padding-bottom:15px
+	padding-bottom:15px;
 }
 
 
@@ -416,7 +413,7 @@ background-image: url('../images/sprite.png');
 
 #legend dd {
 margin-bottom: 8px;
-color: white;
+color: #000;
 }
 
 #mainpanel .infos dd {
@@ -424,12 +421,11 @@ margin-bottom: 12px;
 }
 
 #mainpanel .node {
-background-position: -11px -119px
+background-position: -11px -119px;
 }
 
 #mainpanel .edge {
 background-position: -51px -122px;
-color: black;
 }
 
 #mainpanel .colours {
