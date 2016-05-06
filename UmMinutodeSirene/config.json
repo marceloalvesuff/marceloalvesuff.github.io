@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "text": "Vértice",
+    "file": "",
+    "link": ""
+  },
+  "text": {
+    "title": "Um minuto de sirene Greenpeace",
+    "more": "A campanha #UmMinutodeSirene do Greenpeace lembra todo brasileiro da  tragédia ambiental de Bento Rodrigues, Mariana, e das demais cidades no curso do Rio Doce.",
+    "intro": "Repercussão da campanha #UmMinutodeSirene do Greenpeace."
+  },
+  "legend": {
+    "edgeLabel": "Ligações",
+    "colorLabel": "Cor",
+    "nodeLabel": "Canais"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": "Modularity Class",
+    "hoverBehavior": "default"
+  },
+  "informationPanel": {
+    "imageAttribute": false,
+    "groupByEdgeDirection": false
+  },
+  "sigma": {
+    "graphProperties": {
+      "minEdgeSize": 0.2,
+      "maxNodeSize": 7,
+      "maxEdgeSize": 0.5,
+      "minNodeSize": 1
+    },
+    "drawingProperties": {
+      "labelThreshold": 10,
+      "hoverFontStyle": "bold",
+      "defaultEdgeType": "curve",
+      "defaultLabelColor": "#000",
+      "defaultLabelHoverColor": "#fff",
+      "defaultLabelSize": 14,
+      "activeFontStyle": "bold",
+      "fontStyle": "bold",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd"
+    },
+    "mouseProperties": {
+      "minRatio": 0.75,
+      "maxRatio": 20
+    }
+  }
+}
