@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "text": "Marcelo Alves",
+    "file": "",
+    "link": ""
+  },
+  "text": {
+    "title": "Lideranças do Congresso Nacional",
+    "more": "Para identificar esse grupo, os pesquisadores analisaram as páginas do Facebook dos políticos com o maior número de curtidas, engajamento (comentários e compartilhamentos) e graus de entrada, ou seja, o quanto a página é seguida por outros políticos. Este foi o principial critério usado para produzir o ranking  porque o grau de entrada, segundo o estudo, representaria melhor a relevância de cada político no Facebook.",
+    "intro": "A rede das Lideranças do Congresso Nacional no Facebook"
+  },
+  "legend": {
+    "edgeLabel": "Ligações",
+    "colorLabel": "Cor",
+    "nodeLabel": "Canais"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": "Modularity Class",
+    "hoverBehavior": "default"
+  },
+  "informationPanel": {
+    "imageAttribute": false,
+    "groupByEdgeDirection": false
+  },
+  "sigma": {
+    "graphProperties": {
+      "minEdgeSize": 0.2,
+      "maxNodeSize": 7,
+      "maxEdgeSize": 0.5,
+      "minNodeSize": 1
+    },
+    "drawingProperties": {
+      "labelThreshold": 10,
+      "hoverFontStyle": "bold",
+      "defaultEdgeType": "curve",
+      "defaultLabelColor": "#000",
+      "defaultLabelHoverColor": "#fff",
+      "defaultLabelSize": 14,
+      "activeFontStyle": "bold",
+      "fontStyle": "bold",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd"
+    },
+    "mouseProperties": {
+      "minRatio": 0.75,
+      "maxRatio": 20
+    }
+  }
+}
