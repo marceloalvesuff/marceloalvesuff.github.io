@@ -10,11 +10,11 @@
   "text": {
     "more": "Monitor Vértice - rede de 26.242 tweets coletados com a #Bolsonaro2018 no dia 31 de agosto.",
     "intro": "Monitor Vértice - rede de 26.242 tweets coletados com a #Bolsonaro2018 no dia 31 de agosto.",
-    "title": "Bolsonaro2018"
+    "title": "#Bolsonaro2018"
   },
   "legend": {
     "edgeLabel": "Ligações",
-    "colorLabel": "Clusters",
+    "colorLabel": "Comunidades",
     "nodeLabel": "Nós"
   },
   "features": {
