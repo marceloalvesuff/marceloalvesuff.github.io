@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": "Vértice Inteligência"
+  },
+  "text": {
+    "more": "Monitor Vértice - rede de 81.093 tweets de 20.023 perfis realizados com a #DebateGloboRio entre 22h30 e 01h30.",
+    "intro": "Monitor Vértice - rede de 81.093 tweets de 20.023 perfis realizados com a #DebateGloboRio entre 22h30 e 01h30.",
+    "title": "#DebateGloboRio"
+  },
+  "legend": {
+    "edgeLabel": "Ligações",
+    "colorLabel": "Comunidades",
+    "nodeLabel": "Nós"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": false,
+    "hoverBehavior": "default"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
